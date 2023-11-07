@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tendances sportive</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/js/bootstrap.min.js"></script>
+    <!-- Inclure le fichier CSS de Bootstrap -->
+<link rel="stylesheet" href="chemin_vers_bootstrap.css">
+
+<!-- Inclure le fichier JavaScript de Bootstrap (en bas du fichier body) -->
+<script src="chemin_vers_bootstrap.js"></script>
+
+  </head>
+<body>
+    <link rel="stylesheet" href="CSS/innovation.css">
+  </head>
+  <body>
+      <section class="container-fluid">
+          <header class="header">
+          
+            <img src="image/Logo.png" alt="Logo du site">
+            <nav class="nav">
+
+              <a href="tendancesprincipale.html">
+              <li><center>Accueil</center></li></a>
+
+              <a href="sportive.html">
+              <li><center>Tendances Sportives</center></li></a>
+
+              <a href="supersportive.html">
+              <li><center>Tendances Supersportives</center></li></a>
+
+
+              <a href="innovation.html">
+              <li><center>Concepts Innovations</center></li></a>
+
+              <a href="identification.html">
+              <li><center>Se connecter </center></li></a>
+  
+            </nav>
+          </header>
+        <div class="landing-page">
+          <h1 class="big-title"> Dernières innovations technologiques </h1>
+          <img class="img-custom" src="image/bugatti.jpg" alt="bugatti"> 
+        </div>
+      </section>
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+<body>
+      <section class="details-voiture">
+        <br>
+        <div class="Intro">
+        3 innovations qui pourraient révolutionner les domaines du transport
+        </div>
+        <hr>
+        <br><br>
+      1. Tesla Model 3 (2021) : Une technologie très avancé de Elon Musk
+        <br><br>
+        <img class="img-responsive" src="image/modele3.png" alt="tesla3">
+  
+        Description : 
+        <br>
+        La Model 3 est une berline 100 % électrique. Cette version 2021 a été présentée fin 2020, elle introduit quelques changements mineurs par rapport à l'ancienne Model 3. 
+        Tesla a abandonné les chromes pour un habillage noir mat, la console centrale a été revue. 
+        Cette voiture possède le mode auto-pilot.L'Autopilot est un système d'assistance conducteur avancé qui apporte un gain de sécurité et de confort au volant. 
+        Utilisé correctement, l'Autopilot réduit la charge assumée par le conducteur.
+        <br><br>
+        <hr>
+        <br><br>
+      2. Terrafugia Transition : un avion convertible en véhicule automobile
+        <br><br>
+        <img class="img-responsive" src="image/tf-x-front.png" alt="tf-x">
+  
+        Description : 
+        <br>
+        Le Terrafugia Transition, un avion convertible en véhicule automobile conçu par la société américaine Terrafugia1, fonctionne en mode hybride. 
+        Il est équipé d'un moteur 4-cylindres essence Rotax 912iS de 100 ch couplé à un moteur électrique associé à une batterie lithium-fer-phosphate.
+        <br><br>
+        <hr>
+        <br><br>
+      3. Uber Elevate : Des taxis volants électriques qui pourraient révolutionner le transport dans les villes.
+        <br><br>
+        <img class="img-responsive" src="image/uber.png" alt="Uber">
+  
+        Description : 
+        <br>
+        L’actuel leader sur le marché des VTC a transféré son activité de taxi volant à la startup Joby Aviation. 
+        Si Uber prend ses distances, il ne tire pas un trait sur le projet. 
+        La société prévoit d’investir 75 millions de dollars dans la startup, 
+        qui s’ajoutent aux 50 millions de dollars déjà investis dans Joby, en janvier dernier.
+        <br><br>
+        <hr>
+            <center>Lightyear One</center>
+            <br><br>
+        <div class="slider-container">
+          <input class="slide-input" id="slide-dot-1" type="radio" name="slides" checked>
+          <img class="slide-img" src="image/Lightyear-One-High-front-view1.jpg">
+      
+          <input class="slide-input" id="slide-dot-2" type="radio" name="slides">
+          <img class="slide-img" src="image/Lightyear-One-Back-view.jpg">
+      
+          <input class="slide-input" id="slide-dot-3" type="radio" name="slides">
+          <img class="slide-img" src="image/lightyear-0.jpg">
+      
+          <div class="menu">
+              <label for="slide-dot-1"></label>
+              <label for="slide-dot-2"></label>
+              <label for="slide-dot-3"></label>
+          </div>
+      </div>
+  
+      <script>
+          var currentSlide = 0; // diapositive actuelle 
+          var slides = document.querySelectorAll('.slide-input');
+  
+          function autoSlide() {
+              slides[currentSlide].checked = true;
+              currentSlide = (currentSlide + 1) % slides.length;
+          }
+  
+          //automatisation toutes les 3 secondes
+          setInterval(autoSlide, 3000);
+      </script>
+
+  </body>
+</html>

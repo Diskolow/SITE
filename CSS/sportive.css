@@ -1,0 +1,114 @@
+*{
+
+
+}
+
+body{
+margin: 0 auto;
+
+}
+header.header {
+    display: flex;
+    align-items: center;
+    -webkit-backdrop-filter: blur(20px); 
+    backdrop-filter: blur(5px);
+    background-color: rgba(182, 182, 182, 0.219);
+    text-decoration: none;
+}
+header.header img {
+    width: 80px
+
+}
+section.container-fluid {
+    background-size: cover;
+    height: 80vh;
+    text-decoration: none;
+a.nav{
+text-decoration: none;
+}
+}
+.img-custom {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    top: 0;
+    left: 0;
+}
+
+
+
+/* MENU DE NAVIGATION */
+nav.nav{
+    display: flex;
+    justify-content: space-between;
+    list-style:none;
+    width: 400px;
+    margin-left: 90px;
+    text-decoration: none;
+
+}
+nav.nav li {
+    color:white;
+    text-decoration: none;
+
+}
+
+/* Page de BIENVENUE */
+.big-title {
+    font-size: 50px;
+    padding: 10px 30px;
+    -webkit-text-stroke: 1px #F8F8F8;
+	text-shadow: 0px 1px 4px black;
+    font-family: system-ui;
+}
+
+
+
+
+
+
+
+
+
+/* styles.css */
+/* Styles pour les écrans plus petits (téléphones) */
+@media (max-width: 767px) {
+    .nav {
+      display: flex;
+      flex-direction: lign; /* Afficher les éléments en colonne */
+      align-items: center; /* Centrer les éléments */
+    }
+  
+    .nav li {
+      margin: 10px 0; /* Ajouter de l'espace entre les éléments */
+    }
+  }
+section.tesla-roadster {
+    font-size: 30px;
+    font-family: cursive;
+    background-color: rgb(241, 171, 171); /* Couleur d'arrière-plan noire */
+    height: 110px; /* Hauteur de la barre */
+    width: 100%; /* Largeur de la barre pour remplir la largeur de l'écran */
+    -webkit-text-stroke: 0.25px #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    -webkit-backdrop-filter: blur(20px); 
+    backdrop-filter: blur(5px);
+    background-color: rgba(182, 182, 182, 0.482);
+
+
+}
+section.details-voiture {
+    font-size: 20px;
+    font-family: DejaVu Sans Mono, monospace;
+    background-color: rgb(169, 169, 169); /* Couleur d'arrière-plan noire */
+    height: 11800px; /* Hauteur de la barre */
+    width: 100%; /* Largeur de la barre pour remplir la largeur de l'écran */
+    -webkit-text-stroke: 0.25px #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    -webkit-backdrop-filter: blur(20px); 
+    backdrop-filter: blur(5px);
+    background-color: rgba(169, 169, 169, 0.482);
+    background-image: url("tesla-roadster.png") 
+}
+
